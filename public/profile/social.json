@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/vasanth-b-94540a258/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/Vasanth-B"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:vasanthdany25@gmail.com"
+        }
+    ]
+}

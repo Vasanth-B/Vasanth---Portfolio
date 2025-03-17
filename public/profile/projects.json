@@ -1,0 +1,45 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/News_portal.png",
+            "title": "Dev Portfolio",
+            "bodyText": "- Real-Time News: Instant updates by category.\n -  Multi-Channel Alerts: Get email and push notifications.\n - Custom Preferences: Personalize feed and alerts.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/Vasanth-B/frontend-newspaper.git"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://news-paper-frontend.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "React",
+                "News Portal",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "images/projects/portfolio-poster.png",
+            "title": "Dev Portfolio",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://mayankagarwal.me"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        }
+        
+    ]
+}
