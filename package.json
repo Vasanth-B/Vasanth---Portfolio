@@ -45,6 +45,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "eslint src --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,css}\"",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
@@ -54,7 +56,16 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "react-error-overlay": "6.0.9"
+    "react-error-overlay": "6.0.9",
+    "prettier": "^2.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": ["airbnb", "plugin:prettier/recommended"],
+    "rules": {
+      "eol-last": "error"
+    }
   },
   "resolutions": {
     "react-error-overlay": "6.0.9"
