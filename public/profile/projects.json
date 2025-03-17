@@ -2,7 +2,7 @@
     "projects" : [
         {
             "image" : "images/projects/News_portal.png",
-            "title": "Dev Portfolio",
+            "title": "News Portal",
             "bodyText": "- Real-Time News: Instant updates by category.\n -  Multi-Channel Alerts: Get email and push notifications.\n - Custom Preferences: Personalize feed and alerts.",
             "links": [
                 {
@@ -27,11 +27,11 @@
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/Vasanth-B/Vasanth---Portfolio.git"
                 },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "https://vasanthbportfolio.netlify.app/"
                 }
             ],
             "tags" : [
