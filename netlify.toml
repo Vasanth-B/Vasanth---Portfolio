@@ -1,16 +1,4 @@
-[build]
-  publish = "build"
-  command = "npm run build"
-
-[dev]
-  command = "npm start"
-  port = 3000
-
-[build.environment]
-  NODE_VERSION = "16"  # or your preferred Node.js version
-
-[functions]
-  directory = "functions"  # Optional: specify your functions directory if you have serverless functions
-
-[redirects]
-  # Optional: add any redirects here
+[[redirects]] 
+from = "/*" 
+to = "/index.html" 
+status = 200
